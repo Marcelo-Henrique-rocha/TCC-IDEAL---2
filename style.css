@@ -1,0 +1,287 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'font01';
+    src: url(Kreadon-fonts/fonts/otf/Kreadon-Bold.otf) format('opentype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root {
+    --cor1: #EFF1F0;
+    --cor2: #69b9e3;
+    --cor3: #274e9d;
+    --cor4: #1F386D;
+
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+nav {
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-family: 'font01';
+    margin-top: -106px;
+    margin-right: 6%;
+
+
+}
+
+nav>a {
+    padding: 34px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+
+article {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#main1 {
+    text-align: justify;
+    margin-top: auto;
+    margin-top: -34%;
+}
+
+main>h1 {
+    margin: 4px;
+    margin-left: 51px;
+    font-size: 3em;
+    color: #274e9d;
+
+
+}
+
+#mulher {
+    width: 38%;
+    margin-left: 38%;
+    max-width: 800px;
+    margin-top: -4%;
+
+
+}
+
+#p1 {
+    margin-left: 51px;
+    margin-right: 20px;
+    margin-top: 26px;
+    font-size: 16px;
+    font-family: "Poppins";
+
+}
+
+
+
+#main2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1F386D;
+    margin-top: 15%;
+}
+
+#main2>h1 {
+    color: white;
+    margin-top: 10%;
+
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+#main2>p {
+    margin-top: -4%;
+    font-size: 20px;
+    padding: 34px;
+    margin-left: 80px;
+}
+
+img {
+
+    width: 23%;
+    margin-top: 16px;
+}
+
+button {
+    background-color: #51f30b;
+    color: #000000;
+    margin-left: 48px;
+    width: 22%;
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    font-size: 1.2em;
+    margin-top: 33px;
+}
+
+button.botao1 {
+    background-color: #51f30b;
+    font-size: 1.2em;
+}
+
+button.botao2 {
+    width: 18%;
+    margin-left: 42%;
+    padding: 11px;
+    margin-bottom: 30px;
+    background-color: #51f30b;
+    font-size: 1.2em;
+
+}
+
+
+
+h1#contrato {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-indent: 30px;
+    font-size: 26px;
+    text-align: left;
+    margin-top: 141px;
+    margin-left: 33px;
+
+}
+
+p#prcontrato {
+    margin-left: 30px;
+    margin-top: 23px;
+    font-size: 1.2em;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 70%;
+}
+
+h1#preco {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: -23.6%;
+
+}
+
+p#prpreco {
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 23px;
+    font-size: 1.2em;
+    margin-left: 30px;
+    text-align: center;
+}
+
+h1#seguranca {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 28px;
+    margin-top: -20.4%;
+    text-align: right;
+    margin-right: 40px;
+}
+
+p#seguranca {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    margin-left: 67%;
+}
+
+h1#h1dp{
+    margin-top: 4em;
+    text-align: center;
+}
+
+#img1{
+    margin-left: 13%;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+#img2{
+    margin-left: 1.7%;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+#img3{
+    margin-left: 2%;
+    border-color: #000000;
+    border-radius: 10px;
+    border: 30px;
+    background-color: #000000;
+}
+
+#main4{
+    background-color: #EFF1F0;
+}
+
+footer{
+    background-color: #35a4e0;
+    padding: 3em;
+    color: #f7f7f7;
+   
+}
+
+h1#rodape{
+    text-align: right;
+    margin-top: -3.7em;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 6em;
+}
+
+h1#sorodape{
+    margin-left: 13.3em;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.2em;
+}
+
+p#prodape{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20em;
+    margin-top: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#numero{
+    margin-top: -2.8em;
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10.2em;
+}
+
+p#gmail{
+    margin-top: 0.6em;
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5.6em;
+}
+
+img#logorodape{
+    width: 25%;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin: auto;
+}
